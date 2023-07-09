@@ -1,0 +1,59 @@
+hibernate.cfg.xml
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory name="domo">
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">root</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/sonoo</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+         <property name="hbm2ddl.auto">update</property>
+        <property name="show_sql">true</property>
+        <mapping class="com.Product"/>
+    </session-factory>
+</hibernate-configuration>
+
+====================================================================
+hibernate.hbm.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+		
+ <hibernate-mapping>  
+  <class name="com.javatpoint.mypackage.Employee" table="emp1000">  
+    <id name="id">  
+     <generator class="assigned"></generator>  
+    </id>  
+            
+    <property name="firstName"></property>  
+    <property name="lastName"></property>  
+            
+  </class>  
+            
+ </hibernate-mapping>  
+ 
+ 
+ ===============================================================
+
+package com;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory; import org.hibernate. Transaction;
+import org.hibernate.cfg.Configuration;
+public class App {
+public static void main(String[] args) {
+Configuration cfg= new Configuration(); cfg.configure ("hibernate.cfg.xml");
+SessionFactory factory=cfg.buildSessionFactory();
+Session session-factory.openSession();
+Transaction tx-session.beginTransaction();
+Employee e = new Employee();
+e.setUid (200); e.setName("Mahesh")];
+e.setDesig("Developer");
+session.save (e); tx.commit();
+System.out.println("Data inserted Sunnfully..!");|

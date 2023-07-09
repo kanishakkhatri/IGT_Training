@@ -1,0 +1,345 @@
+C ++ : 
+	OOPL
+	Secutity...
+	Platform Dependent 
+	MultyThreading 
+	Rich lib Support 
+	Open Source 
+	Scalable and Inbuilt Memory managent 
+Java 	
+	OOPL
+	Secutity...
+	Platform independent 
+	MultyThreading 
+	Rich lib Support 
+	Open Source 
+	Scalable and Inbuilt Memory managent 
+
+
+Python ? 
+	OOPL ? yes 
+	Security ..? 
+	Platform Indenett ?
+	MultyThreading : yes 
+	Rich lib ?  yes 
+	Opne Source ? yes	
+	Scablabel 
+
+C# .net : 
+	
+
+C 
+C++
+Python 			
+java	
+.net 
+php 
+asp
+jsp 
+cobal 
+pascasl 
+angualr 
+node js
+exxpress js
+vew js
+venila Js 
+backbon js 
+react js 
+unix 
+web 
+html 
+css 
+js 
+			20 : 
+etc..........................!
+
+		total no prog: 700 + programing   
+
+		
+
+Binary lang : machin lang 
+Assembly lev Lang
+
+cobal ,
+pascal ...
+
+
+			Basic level lang ,....! B prog 
+			Platfom Depedent 	Independent 
+C prog			----? C ++		----> C#		 
+high 			Sopl+ Oopl  		----> java
+Sopl  popl 					----> Python 
+
+
+
+C# 		: paid 			
+java 		: open source 
+Python 		: open Source 
+
+========================================
+
+java 		: open source 
+Python 		: open Source 
+
+
+	java 						Python 
+================================================================================================
+	OOPL						OOPL 
+
+	Programing lang 				Scripting lang
+
+
+	Comiple						no compiler  
+		run  						directly run 
+
+
+	slow 						fast
+
+	Security : high					secutiry 
+	10 line 					100 lines 
+
+	Bank app : 
+		java 					Performance lel 
+								robotices / AI/ML 
+
+	Hign Security 
+	oopl 
+
+
+		
+		avoid the ready made methods 
+
+
+1) Find the max of 2 number
+					max(a,b);
+2) WAP to find a max of 3 number 
+3) array 
+	arr=[1,4,2,5,67,3,6,3,56,6,88] : max in array 
+				arr.sort();
+4) Min in array
+5) Sort based on asc + decendng order
+6) Java Program to count the total number of characters in a string
+7) Java program to find the duplicate characters in a string
+
+=================================OOPS ( Object orineted programing lang )===========================
+
+Class  : collection of objects 
+Object :  instance of class 
+
+
+Inheritance : 
+		aquri the proprty from prnt to child 
+		inherit the proprty from parent to child 
+
+
+		parent---- > Super class -----> Base class  
+		child ---- > Sub classs-------> derived class 
+
+		advantage ? 
+			we can core reusable ....!
+			we can reduce the code length and complexity 
+			incress the performace of application 
+			
+		Types of Inheritance : 
+			Single 
+			multilevel 
+			multiple 
+			hybred 
+			hyrichy
+		
+		class A to class B how to aquri the property ? 
+				useing extend key work 
+				this keyword 
+				super keyword 
+				
+===========================Polymorphism===================================================================================  
+what is polymorphism? 
+
+		1) ablity to take as multiple forms 
+		2)  single name but different behavior 
+		ex : 
+			draw :
+				void draw(int r)
+				{
+					2 * PI * r * r; 
+				}
+				void draw(int l, int b)
+				{
+					int result= l* b;
+				}
+			boy :
+				school : student
+				Home for parent : child 
+				home for sibling : brother 
+				playground 	: player 
+ 
+Compile time polymorphism =========== > static polymorphism
+		Over loding : 
+				types : 
+					constructor over loding : 
+							what is constructor over loading ? 
+							what is the use of it ? 
+							when to  use it 
+							where to use it 
+					method over loding
+					operator overloading : not in java
+Run time polymorphism ================> Dynamic polymorphism
+		over riding :
+				types : 
+					constructor over riding 				
+					method over riding 
+
+======================================= Abstraction ========================================
+Hide the implementation and just show the funcunality to the end use 
+
+Hide the implementation
+	how to hide   ?
+		by making method as Abstract 
+		if method is abstract then class must be abstract 
+		if class is abstract we can't create a object of abstract class
+		then how or where to provide the logic or body for the method ?
+			in child class we can provide the body....!
+	
+===============================================================================================================
+	Class				Abstract Class		Interface
+------------------------------------------------------------------------------------------------
+class A{}				abstract class A{}	interface I{}
+A a=new A(); yes			no			no
+A(){}					yes			no
+int a;//0				int a;			int a=10;
+not support multiple inheritance	no			yes it will support
+can we hide implementation?		yes:(0-100%)		100%
+
+===============================================================================================================
+Exception Handling
+
+Error								Exception		
+can't be handled				can be handled
+						checked						unchecked
+						compiletime					runtime
+						- ClassNotFoundException	- ArithmeticException
+						- InterruptedException		- ClassCastException
+						- IOException				- NullPointerException
+						- InstantiationException	- ArrayIndexOutOfBound
+						- SQLException				- ArrayStoreException 
+						- FileNotFoundException 	- IllegalThreadStateException
+
+===============================================================================================================
+Servlet
+
+	Servlet: server side coding language used to create web application
+		HttpServlet
+		HttpServletRequest
+		HttpServletResponse
+
+		request.Parameter
+		response.Parameter
+		printWriter
+
+		RequestDispatch
+		Web.xml
+		ServerConfig
+		ServerContext
+
+	doGet/doPost
+
+	lifecycle of servlet 
+
+
+JSP: Java Server Page
+	tags:
+		decleration<%! %>
+		scriptlet<%%>
+		expression<%= %>
+
+		inbuilt object
+			request
+			response
+			out
+			config
+			context
+			exception 
+
+		requestDispatcher
+		doget dopost 
+		jsp lifecycle 
+
+
+	
+[11:22 AM] Thanesh  (Guest)
+
+==============================================================================================================
+
+            JAVA Full satck
+
+ 
+
+html                         HTML /CSS/JS                 HTML CSS JS / Angualr 
+
+css
+
+js
+
+ 
+
+Servlert                    Spring MVC                 Spring boot  
+
+jsp     
+
+ 
+
+        JDBC                         Hibernate            JPA  
+
+DB                         Data base                 Data Base 
+
+===============================================================================================================
+
+            PYTHON FULL SATCK : 
+
+HTML /CSS/JS 
+
+Django
+
+MYSQL / ORACLE
+
+=====================================================
+
+        C# . .net Full Stack 
+
+html css js
+
+ASP.net
+
+ADO.net
+
+ 
+
+mysql/ orcle / SqlServer 
+
+============================================
+
+            MEAN  stack 
+
+HTML. css . js ==== 
+
+Angualr JS 
+
+Express JS 
+
+NODE JS 
+
+MOngoDB
+
+============================================
+
+            MERN  stack 
+
+HTML. css . js ==== 
+
+React JS 
+
+Express JS 
+
+NODE JS 
+
+MOngoDB
