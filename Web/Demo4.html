@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function abc() {
+            var firstname = document.form1.firstname.value;
+            var lastname = document.form1.lastname.value;
+            var fullname = firstname + " " + lastname;
+            alert("Hi! " + fullname);
+            document.form1.fullname.value = fullname;
+        }
+        function xyz(){
+            document.getElementById('firstname').style.backgroundColor="lightblue";
+        }
+        function atoz(){
+            document.getElementById('firstname').style.backgroundColor="pink";
+        }
+        function bgcolor(value){
+            document.getElementById('bgcolor').style.backgroundColor=value;
+        }
+    </script>
+</head>
+<body id="bgcolor">
+    <marquee onmouseover="stop()" onmouseout="start()">
+        <h1>Hi! Welcome to WebApplication</h1>
+    </marquee>
+    <div style="text-align: center;">
+        <h4>LOGIN</h4>
+        <form name="form1" action="">
+            First Name: <input type="text" name="firstname" id="firstname" onfocus="xyz()" onblur="atoz()"><br><br>
+            Last Name: <input type="text" name="lastname" id=""><br><br>
+            Full Name: <input type="text" name="fullname" id="" onfocus="abc()"><br><br>
+            <input type="button" value="CLICK" onclick="abc()"><br><br><br><br>
+            <input type="button" value="DOUBLECLICK" ondblclick="abc()"><br><br><br><br>
+            <select onchange="bgcolor(value)">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="yellow">Yellow</option>
+                <option value="pink">Pink</option>
+                <option value="orange">Orange</option>
+
+            </select>
+        </form>
+    </div>
+</body>
+</html>

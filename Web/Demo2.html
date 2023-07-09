@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function calculate() {
+            var a = parseInt(document.form2.a.value);
+            var b = parseInt(document.form2.b.value);
+            var result;
+
+            if (value === '+') {
+                result = a + b;
+            } else if (value == '-') {
+                result = a - b;
+            } else if (value == '*') {
+                result = a * b;
+            } else if (value == '/') {
+                result = a / b;
+            } else {
+                result = "Invalid";
+            }
+
+            document.form2.result.value = result;
+        }
+    </script>
+</head>
+<body bgcolor="turquoise">
+    <marquee onmouseover="stop()" onmouseout="start()">
+        <h1>Hi! Welcome to WebApplication</h1>
+    </marquee>
+    <div style="text-align: center;">
+        <!-- <h4>LOGIN</h4>
+        <form name="form1" action="">
+            First Name: <input type="text" name="firstname" id=""><br><br>
+            Last Name: <input type="text" name="lastname" id=""><br><br>
+            Full Name: <input type="text" name="fullname" id=""><br><br>
+            <input type="button" value="LOGIN" onclick="abc()"><br><br><br><br>
+        </form> -->
+
+        <form name="form2">
+            Enter values to perform action <br>
+            A : <input type="text" name="a" id="a"><br><br>
+            B : <input type="text" name="b" id="b"><br><br>
+
+            <input type="button" value="+" onclick="calculate()">
+            <input type="button" value="-" onclick="calculate()">
+            <input type="button" value="*" onclick="calculate()">
+            <input type="button" value="/" onclick="calculate()"><br><br>
+            
+            Result : <input type="text" name="result"><br><br>
+
+            <!-- <input type="button" value="Calculate" onclick="calculate()"><br><br> -->
+            <div id="result"></div>
+        </form>
+    </div>
+</body>
+</html>

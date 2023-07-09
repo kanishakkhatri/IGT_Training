@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function valid(){
+            var name=document.getElementById('name').value;
+            if (name.length==0 || name.length==undefined || name.length==null) {
+                // alert("Name required...!");
+                document.getElementById('msg').innerHTML="<i style='color:red'>"
+            }
+        }
+    </script>
+</head>
+<body>
+    <div style="text-align: center;">
+        Name: <br>
+        <input type="text" name="" id="name"><br>
+        <input type="submit" value="CLICK" onclick="valid()">
+    </div>
+</body>
+</html>
